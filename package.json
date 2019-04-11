@@ -1,0 +1,32 @@
+{
+  "name": "restify_user_api",
+  "version": "1.0.0",
+  "description": "user api built with nodejs/restify and mongoDB",
+  "main": "server.js",
+  "dependencies": {
+    "mongoose": "^5.4.22",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^8.2.0",
+    "restify-errors": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guru9/restify_user_api.git"
+  },
+  "keywords": [
+    "restify",
+    "node",
+    "api"
+  ],
+  "author": "GURURAJ MOGER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guru9/restify_user_api/issues"
+  },
+  "homepage": "https://github.com/guru9/restify_user_api#readme"
+}
