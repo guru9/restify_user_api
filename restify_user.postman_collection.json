@@ -1,0 +1,141 @@
+{
+	"variables": [],
+	"info": {
+		"name": "restify_user",
+		"_postman_id": "07b88b80-999b-1343-2828-197b9840da9a",
+		"description": "user api built with nodejs/restify and mongoDB.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/users",
+			"request": {
+				"url": "http://localhost:3000/users",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"modi\",\n\t\"email\":\"modi@mail.com\"\n}"
+				},
+				"description": "get all users"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/users",
+			"request": {
+				"url": "http://localhost:3000/users",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"modi\",\n\t\"email\":\"modi@mail.com\"\n}"
+				},
+				"description": "add new user"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/users/_id",
+			"request": {
+				"url": "http://localhost:3000/users/5ca88483322699112478912a",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"modi\",\n\t\"email\":\"modi@mail.com\",\n\t\"balance\":500\n}"
+				},
+				"description": "get single user"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/users/_id",
+			"request": {
+				"url": "http://localhost:3000/users/5ca8845c22f845239ca6d094",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"harish\",\n\t\"email\":\"modi@mail.com\"\n}"
+				},
+				"description": "update user"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/users/_id",
+			"request": {
+				"url": "http://localhost:3000/users/5ca8846f22f845239ca6d095",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"modi\",\n\t\"email\":\"modi@mail.com\"\n}"
+				},
+				"description": "delete user"
+			},
+			"response": []
+		}
+	]
+}
